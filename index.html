@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的个人网站</title>
+    <title>学术主页</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: white;
             text-align: center;
+            color: #333;
         }
         header {
-            background: #333;
+            background: #005f73;
             color: white;
-            padding: 15px 0;
-            font-size: 24px;
+            padding: 20px 0;
+            font-size: 26px;
         }
         nav {
             margin: 20px 0;
@@ -24,55 +25,81 @@
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: #005f73;
             font-size: 18px;
+            font-weight: bold;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            border-radius: 5px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
         .footer {
             margin-top: 20px;
-            padding: 10px;
-            background: #333;
+            padding: 15px;
+            background: #005f73;
             color: white;
+            font-size: 14px;
+        }
+        h2 {
+            border-bottom: 2px solid #005f73;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "📌 ";
+            color: #005f73;
         }
     </style>
 </head>
 <body>
     <header>
-        欢迎来到我的个人网站
+        🎓 本科生学术主页
     </header>
     <nav>
-        <a href="#about">关于我</a>
-        <a href="#projects">项目</a>
-        <a href="#contact">联系</a>
+        <a href="#about">👨‍🎓 关于我</a>
+        <a href="#research">📖 研究兴趣</a>
+        <a href="#publications">📜 发表论文</a>
+        <a href="#contact">📬 联系方式</a>
     </nav>
     <div class="container">
         <section id="about">
-            <h2>关于我</h2>
-            <p>你好，我是 [你的名字]，一名[职业或兴趣]，欢迎来到我的个人网站！</p>
+            <h2>👨‍🎓 关于我</h2>
+            <p>你好！我是 [你的名字]，一名 [你的专业] 本科生，对 [研究兴趣] 充满热情！🚀</p>
         </section>
-        <section id="projects">
-            <h2>我的项目</h2>
+        <section id="research">
+            <h2>📖 研究兴趣</h2>
+            <p>我的研究兴趣包括但不限于：</p>
             <ul>
-                <li><a href="#">项目1</a></li>
-                <li><a href="#">项目2</a></li>
-                <li><a href="#">项目3</a></li>
+                <li>人工智能 🤖</li>
+                <li>数据科学 📊</li>
+                <li>计算机视觉 🖼️</li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>📜 发表论文</h2>
+            <ul>
+                <li><strong>“机器学习在医学中的应用”</strong> - 2024年，某国际会议 🏥</li>
+                <li><strong>“深度学习与图像处理”</strong> - 2023年，某期刊 📚</li>
+                <li><strong>“人工智能伦理问题”</strong> - 2022年，学术研讨会 🎤</li>
             </ul>
         </section>
         <section id="contact">
-            <h2>联系方式</h2>
+            <h2>📬 联系方式</h2>
             <p>📧 邮箱: your-email@example.com</p>
-            <p>📱 微信/社交媒体: @yourhandle</p>
+            <p>🏛️ 学校: [你的大学]</p>
+            <p>🌐 个人网站: <a href="https://yourwebsite.com">yourwebsite.com</a></p>
         </section>
     </div>
     <footer class="footer">
-        &copy; 2024 我的个人网站 - 由 [你的名字] 创建
+        &copy; 2024 🎓 本科生学术主页 - 由 [你的名字] 创建
     </footer>
 </body>
 </html>
