@@ -1,124 +1,42 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学术主页</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: white;
-            text-align: center;
-            color: black;
-        }
-        header {
-            background: white;
-            color: black;
-            padding: 20px 0;
-            font-size: 26px;
-            font-weight: bold;
-            border-bottom: 2px solid #ccc;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-            font-weight: bold;
-        }
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 5px;
-            box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
-            text-align: left;
-            transition: transform 0.3s ease-in-out;
-        }
-        .container:hover {
-            transform: scale(1.02);
-        }
-        .footer {
-            margin-top: 20px;
-            padding: 15px;
-            background: white;
-            color: black;
-            font-size: 14px;
-            border-top: 2px solid #ccc;
-        }
-        h2 {
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 5px;
-            transition: color 0.3s ease-in-out;
-        }
-        h2:hover {
-            color: #555;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        ul li::before {
-            content: "📌 ";
-            color: black;
-        }
-        a {
-            text-decoration: none;
-            color: black;
-            transition: color 0.3s;
-        }
-        a:hover {
-            color: gray;
-        }
-    </style>
+    <title>Your Name | Undergraduate Student</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        🎓 本科生学术主页
+        <h1 class="animate">Your Name</h1>
+        <p class="animate">Undergraduate Student in Your Major</p>
     </header>
-    <nav>
-        <a href="#about">👨‍🎓 关于我</a>
-        <a href="#research">📖 研究兴趣</a>
-        <a href="#publications">📜 发表论文</a>
-        <a href="#contact">📬 联系方式</a>
-    </nav>
-    <div class="container">
-        <section id="about">
-            <h2>👨‍🎓 关于我</h2>
-            <p>你好！我是 [你的名字]，一名 [你的专业] 本科生，对 [研究兴趣] 充满热情！🚀</p>
-        </section>
-        <section id="research">
-            <h2>📖 研究兴趣</h2>
-            <p>我的研究兴趣包括但不限于：</p>
-            <ul>
-                <li>人工智能 🤖</li>
-                <li>数据科学 📊</li>
-                <li>计算机视觉 🖼️</li>
-            </ul>
-        </section>
-        <section id="publications">
-            <h2>📜 发表论文</h2>
-            <ul>
-                <li><strong>“机器学习在医学中的应用”</strong> - 2024年，某国际会议 🏥</li>
-                <li><strong>“深度学习与图像处理”</strong> - 2023年，某期刊 📚</li>
-                <li><strong>“人工智能伦理问题”</strong> - 2022年，学术研讨会 🎤</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>📬 联系方式</h2>
-            <p>📧 邮箱: your-email@example.com</p>
-            <p>🏛️ 学校: [你的大学]</p>
-            <p>🌐 个人网站: <a href="https://yourwebsite.com">yourwebsite.com</a></p>
-        </section>
-    </div>
-    <footer class="footer">
-        &copy; 2024 🎓 本科生学术主页 - 由 [你的名字] 创建
+    
+    <section class="about animate">
+        <h2>About Me</h2>
+        <p>Hello! I'm an undergraduate student majoring in [Your Major] at [Your University]. I am interested in [briefly describe interests or goals].</p>
+    </section>
+
+    <section class="projects animate">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Project Name</h3>
+                <p>A brief description of your project. Include technologies used or what you've learned.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact animate">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+        <p>GitHub: <a href="https://github.com/your-github">github.com/your-github</a></p>
+    </section>
+
+    <footer class="animate">
+        <p>&copy; 2025 Your Name</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
